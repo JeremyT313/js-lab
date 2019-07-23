@@ -1,5 +1,5 @@
 let name = "Jeremy Taylor";
-let age = "28";
+let age = 28;
 let birthday = "December 7th";
 let detroitGC = true;
 let lifeEvents = [
@@ -10,9 +10,9 @@ let lifeEvents = [
 ];
 
 if (detroitGC === true) {
-  console.log(`
-    My name is ${name} and I am a student at Grand Circus in Detroit, Michigan.
-    I am currently ${age} years old and my birthday is on ${birthday}.`);
+  console.log(
+    `My name is ${name} and I am a student at Grand Circus in Detroit, Michigan.I am currently ${age} years old and my birthday is on ${birthday}.`
+  );
 } else {
   console.log(`
     My name is ${name} and I am a student at Grand Circus in Grand Rapids,
