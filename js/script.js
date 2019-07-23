@@ -23,14 +23,11 @@ for (let i = 0; i < lifeEvents.length; i++) {
   console.log(lifeEvents[i]);
 }
 
-let randomNumber = Math.floor(Math.random() * 10);
-
 let counter = 0;
-
 while (true) {
+  let randomNumber = Math.floor(Math.random() * 10 + 1);
   if (randomNumber != 5) {
     console.log(`${randomNumber} !== 5`);
-    randomNumber = Math.floor(Math.random() * 10 + 1);
     counter++;
   } else {
     counter++;
