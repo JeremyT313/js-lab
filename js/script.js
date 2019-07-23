@@ -26,7 +26,6 @@ while (i < lifeEvents.length) {
 }
 
 let randomNumber = Math.floor(Math.random() * 10);
-console.log(randomNumber);
 
 let counter = 0;
 
