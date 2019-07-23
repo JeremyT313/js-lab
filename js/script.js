@@ -19,10 +19,8 @@ if (detroitGC === true) {
     Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
 }
 
-let i = 0;
-while (i < lifeEvents.length) {
+for (let i = 0; i < lifeEvents.length; i++) {
   console.log(lifeEvents[i]);
-  i++;
 }
 
 let randomNumber = Math.floor(Math.random() * 10);
